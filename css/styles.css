@@ -1,0 +1,63 @@
+@font-face{
+	src: url('https://fonts.googleapis.com/css?family=Lato:400,900');
+}
+
+#main {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	box-sizing: border-box;
+}
+
+.info{
+	display: inline-block;
+	margin: 205px 0 25px 0;
+	position: relative;
+	vertical-align: middle;
+	top: -1em;
+}
+
+.info h1 {
+	font-size: 65px;
+	font-weight: 900;
+}
+
+.info p {
+	font-size: 20px;
+	opacity: 0.75;
+	margin: -15px 0 4px 0
+}
+
+.media li {
+	display: inline-block;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	margin: -25px 0 4px 0;
+}
+
+.media li a{
+	display: block;
+	text-align: center;
+	border: solid 1.5px #000;
+	font-size: 28px;
+	color: #000;
+	line-height: 66px;
+	border-radius: 100%;
+	height: 66px;
+	width: 66px;
+	top: 0;
+	position: relative;
+}
+
+.label {
+	display: none;
+}
+
+.footer {
+	font-size: 11px;
+	bottom: 0;
+	position: absolute;
+	text-align: center;
+	left: 0;
+	width: 100%;
+}
